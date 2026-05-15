@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Massucco
+    given-names: Alex
+title: "attn-sphere: Multi-head attention gradient flows on the sphere"
+version: 0.1.0
+date-released: 2026-05-15
+url: "https://github.com/YOUR_USERNAME/attn-sphere"
+license: MIT

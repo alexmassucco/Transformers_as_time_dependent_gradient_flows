@@ -1,0 +1,11 @@
+results/
+figures/
+__pycache__/
+*.pt
+*.pyc
+*.egg-info/
+dist/
+.DS_Store
+*.pdf
+*.png
+*.gif
