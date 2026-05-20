@@ -5,6 +5,7 @@ from .drift import make_drift_oscillating, ou_drift, frozen_drift
 from .init_tokens import (
     tokens_s1_clustered,
     tokens_s2_octahedral,
+    tokens_sd_clustered,
     symmetric_random_weights,
 )
 
@@ -16,5 +17,6 @@ __all__ = [
     "frozen_drift",
     "tokens_s1_clustered",
     "tokens_s2_octahedral",
+    "tokens_sd_clustered",
     "symmetric_random_weights",
 ]

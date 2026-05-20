@@ -13,6 +13,9 @@ EXPERIMENTS: Dict[str, str] = {
     "s2_oscillating": "experiments.s2_oscillating",
     "s2_ou": "experiments.s2_ou",
     "s2_combined_plots": "experiments.s2_combined_plots",
+    "hd_oscillating": "experiments.hd_oscillating",
+    "hd_ou": "experiments.hd_ou",
+    "hd_combined_plots": "experiments.hd_combined_plots",
 }
 
 
@@ -49,6 +52,7 @@ def _build_parser():
     run_p.add_argument("--n-mc", dest="n_mc", type=int, help="Monte Carlo paths")
     run_p.add_argument("--mc-batch", dest="mc_batch", type=int, help="MC batch size")
     run_p.add_argument("--noise-var", dest="noise_var", type=float, help="Noise variance")
+    run_p.add_argument("--d", type=int, help="Ambient dimension (high-d experiments)")
     run_p.add_argument("--seed", type=int, default=42, help="Random seed")
     run_p.add_argument("--results-dir", default="./results", help="Results directory")
     run_p.add_argument("--figures-dir", default="./figures", help="Figures directory")

@@ -1,10 +1,26 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+title: "Transformers as time-dependent gradient flows"
+version: 0.1.0
+date-released: 2026-05-15
+url: "https://github.com/alexmassucco/Transformers_as_time_dependent_gradient_flows"
+license: MIT
 authors:
   - family-names: Massucco
     given-names: Alex
-title: "attn-sphere: Multi-head attention gradient flows on the sphere"
-version: 0.1.0
-date-released: 2026-05-15
-url: "https://github.com/YOUR_USERNAME/attn-sphere"
-license: MIT
+preferred-citation:
+  type: article
+  title: "Multi-Headed Transformer Architectures as Time-dependent Wasserstein Gradient Flows"
+  authors:
+    - family-names: Massucco
+      given-names: Alex
+    - family-names: Del Grande
+      given-names: Leonardo
+    - family-names: Carioni
+      given-names: Marcello
+    - family-names: Brune
+      given-names: Christoph
+    - family-names: Schonlieb
+      given-names: Carola-Bibiane
+  year: 2026
+  url: ...
